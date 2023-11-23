@@ -6,7 +6,7 @@
 // ROS::Publisher motor commands;
 ros::Publisher motor_command_publisher;
 
-// TODO: Create a handle_drive_request callback function that executes whenever a drive_bot service is requested
+// DONE: Create a handle_drive_request callback function that executes whenever a drive_bot service is requested
 // This function should publish the requested linear x and angular velocities to the robot wheel joints
 // After publishing the requested velocities, a message feedback should be returned with the requested wheel velocities
 bool handle_drive_request(ball_chaser::DriveToTarget::Request& req, ball_chaser::DriveToTarget::Response& res) {
