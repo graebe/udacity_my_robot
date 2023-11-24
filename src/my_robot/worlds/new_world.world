@@ -929,7 +929,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.4 0.2 0.1</size>
+              <size>0.6 0.2 0.1</size>
             </box>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1034,9 +1034,13 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.4 0.2 0.1</size>
+              <size>0.6 0.2 0.1</size>
             </box>
           </geometry>
+          <material>
+            <ambient>1 1 0 1</ambient> 
+            <diffuse>1 1 0 1</diffuse>
+          </material>
         </visual>
         <visual name='robot_footprint_fixed_joint_lump__back_caster_visual_visual_1'>
           <pose>-0.15 0 -0.05 0 -0 0</pose>
@@ -1179,7 +1183,7 @@
           <pose>0 0 0 1.57089 1.57079 -3.14159</pose>
           <geometry>
             <cylinder>
-              <length>0.05</length>
+              <length>0.1</length>
               <radius>0.1</radius>
             </cylinder>
           </geometry>
@@ -1201,15 +1205,13 @@
           <pose>0 0 0 1.57089 1.57079 -3.14159</pose>
           <geometry>
             <cylinder>
-              <length>0.05</length>
+              <length>0.1</length>
               <radius>0.1</radius>
             </cylinder>
           </geometry>
           <material>
-            <script>
-              <name>Gazebo/Black</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
+            <ambient>0.3 0.3 0.3 1</ambient> <!-- Dark gray color -->
+            <diffuse>0.3 0.3 0.3 1</diffuse>
           </material>
         </visual>
         <self_collide>0</self_collide>
@@ -1254,7 +1256,7 @@
           <pose>0 0 0 1.57089 1.57079 -3.14159</pose>
           <geometry>
             <cylinder>
-              <length>0.05</length>
+              <length>0.1</length>
               <radius>0.1</radius>
             </cylinder>
           </geometry>
@@ -1276,15 +1278,13 @@
           <pose>0 0 0 1.57089 1.57079 -3.14159</pose>
           <geometry>
             <cylinder>
-              <length>0.05</length>
+              <length>0.1</length>
               <radius>0.1</radius>
             </cylinder>
           </geometry>
           <material>
-            <script>
-              <name>Gazebo/Black</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
+            <ambient>0.3 0.3 0.3 1</ambient> <!-- Dark gray color -->
+            <diffuse>0.3 0.3 0.3 1</diffuse>
           </material>
         </visual>
         <self_collide>0</self_collide>
