@@ -91,7 +91,7 @@
     <state world_name='default'>
       <sim_time>401 705000000</sim_time>
       <real_time>417 451661772</real_time>
-      <wall_time>1700824243 683251743</wall_time>
+      <wall_time>1700824280 388662015</wall_time>
       <iterations>401705</iterations>
       <model name='ground_plane'>
         <pose>0 0 0 0 -0 0</pose>
@@ -114,22 +114,22 @@
         </link>
       </model>
       <model name='my_robot'>
-        <pose>1.07872 1.00075 0.100002 -0 0.000677 -0.023716</pose>
+        <pose>-3.20481 -1.57811 0.100002 -0 0.000677 -0.023716</pose>
         <scale>1 1 1</scale>
         <link name='left_wheel'>
-          <pose>1.08228 1.15071 0.100002 -2e-06 0.873333 -0.023718</pose>
+          <pose>-3.20125 -1.42815 0.100002 -2e-06 0.873333 -0.023717</pose>
           <velocity>3e-05 0.001365 0.000353 -0.013649 0.000331 -0.000155</velocity>
           <acceleration>0.048673 2.72708 0.706671 -2.16903 0.50008 -0.072772</acceleration>
           <wrench>0.243363 13.6354 3.53336 0 -0 0</wrench>
         </link>
         <link name='right_wheel'>
-          <pose>1.07516 0.850792 0.100002 4e-06 0.856489 -0.023713</pose>
+          <pose>-3.20837 -1.72806 0.100002 4e-06 0.856489 -0.023713</pose>
           <velocity>1e-06 0.00136 0.004615 -0.013626 7.4e-05 -0.000221</velocity>
           <acceleration>0.062621 2.71424 9.23022 -2.11711 0.240941 -0.205412</acceleration>
           <wrench>0.313103 13.5712 46.1511 0 -0 0</wrench>
         </link>
         <link name='robot_footprint'>
-          <pose>1.07872 1.00075 0.100002 -0 0.000677 -0.023716</pose>
+          <pose>-3.20481 -1.57811 0.100002 -0 0.000677 -0.023716</pose>
           <velocity>1.8e-05 0.001283 0.00248 -0.014032 0.000176 -0.000208</velocity>
           <acceleration>0.060805 2.5608 4.96012 -2.93083 0.37769 -0.177793</acceleration>
           <wrench>0.918162 38.6681 74.8978 0 -0 0</wrench>
@@ -265,7 +265,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>-15.7132 4.28585 18.6545 -0 0.759764 -0.511475</pose>
+        <pose>-15.0381 3.8486 19.4995 -0 0.759764 -0.511475</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
